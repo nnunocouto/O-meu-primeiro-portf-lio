@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+.nav{
+    color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    font-family: verdana;}
+nav a{
+    color: antiquewhite;
+    text-decoration: none;}
+nav a:hover{
+    color: #D3D3D3;
+    text-decoration: underline;}
+.h1sobre{
+    text-align: center;
+    color: antiquewhite;
+    font-size: 50px;
+    font-family: montserrat;}
+.h1inicio{
+    text-align: center;
+    color: antiquewhite;
+    font-size: 50px;
+    font-family: montserrat;}
+.h1contacto{
+    text-align: center;
+    color: antiquewhite;
+    font-size: 50px;
+    font-family: montserrat;}
+.h1projetos{
+    text-align: center;
+    color: antiquewhite;
+    font-size: 50px;
+    font-family: montserrat;}
+body{
+    background-color: #1f1f1f;
+    padding-bottom: 50px;}
+p{
+    color: antiquewhite;
+    font-family: oswald;
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.6;}
+footer{
+    position: fixed;
+    color: antiquewhite;
+    bottom: 0;}
+.buttonenviar{
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    font-family: oswald;
+    transition: background-color 0.3s ease;
+    width: 80px;}
+.buttonenviar:hover{
+    cursor: pointer;
+    background-color: #a3a1a1;}
+label{
+    color: antiquewhite;
+    font-family: oswald;}
+input, textarea{
+    padding: 5px;
+    font-family: oswald;
+    width: 200px;}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;}
+.form-linha{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    width: 60%;
+    max-width: 300%;}
+.form-linha label{
+    width: 100px;
+    text-align: center;
+    color: antiquewhite;}
+.form-linha input, .form-linha textarea{
+    flex: 1;
+    padding: 8px;
+    border-radius: 10px;}
+.imgsobre{
+    width: 40%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 5);}
+.psobre{
+    color: antiquewhite;
+    font-family: oswald;
+    font-size: 16px;
+    padding: 20px;
+    background-color: #2a2a2a;
+    border-radius: 10px;
+    width: 40%;}
+.containersobre{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    padding: 20px;}
+.pprojetos{
+    font-family: oswald;
+    font-size: 16px;
+    padding: 20px;
+    background-color: #2a2a2a;
+    border-radius: 10px;
+    width: 40%;}
+.imgprojetos{
+    width: 40%;
+    height: 60%;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 5);}
+.containerprojetos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+    padding: 20px;}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+    <header>
+        <link rel="stylesheet" href="style.css">
+        <nav class="nav">
+            <a href="inicio.html">Início</a>
+            <a href="projetos.html">Projetos</a>
+            <a href="sobre.html">Sobre</a>
+            <a href="contactenos.html">Contacto</a>
+        </nav>
+        <h1 class="h1contacto">Contacto</h1>
+    </header>
+    <body>
+       <p> Envie-me um e-mail <a href="mailto:nuno.couto.2306@gmail.com">clicando aqui</a></p>
+       <p>Ou então:</p>
+    <form action="https://api.staticforms.xyz/submit" method="post">
+        <input type="hidden" name="accessKey" value="sf_e7bdfakndk86he0knl7n167j">
+        <div class="form-linha">
+        <label>Nome:</label>
+        <input type="text" name="nome" required>
+        </div>
+        <br><br>
+        <div class="form-linha">
+        <label>E-mail:</label>
+        <input type="email" name="e-mail" required>
+        </div>
+        <br><br>
+        <div class="form-linha">
+        <label>Mensagem:</label>
+        <textarea name="mensagem" required></textarea>
+        </div>
+        <br><br>
+        <button class="buttonenviar" type="submit">Enviar</button>
+    </form>
+    </body>
+    <footer class="footer">Este site foi desenvolvido por Nuno Couto© em 2026</footer>
+</html>
